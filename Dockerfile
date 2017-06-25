@@ -10,4 +10,4 @@ RUN apt-get -y install \
 
 EXPOSE 6900
 
-CMD /usr/bin/websockify 6900 localhost:$VNC_PORT
+CMD /usr/bin/websockify 0.0.0.0:6900 $VNC_HOST:$VNC_PORT

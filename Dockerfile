@@ -6,6 +6,7 @@ RUN apt-get -y update
 
 # Install X dependencies
 RUN apt-get -y install \
+  python-pip \
   websockify
 
 EXPOSE 6900

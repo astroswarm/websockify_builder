@@ -11,3 +11,8 @@ manifests:
     platform:
       architecture: arm64
       os: linux
+  -
+    image: "astroswarm/websockify-armv7l:latest"
+    platform:
+      architecture: arm
+      os: linux
